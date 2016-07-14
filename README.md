@@ -21,6 +21,38 @@ EasyDataAnalyzer is available in the MavenCentral to add as a dependency
 compile 'com.github.NikhilBhutani:EasyDataAnalyzer:1.0'
 ```
 
+### Usage Docs/Wiki
+
+```
+DataAnalyzer dataAnalyzer = new DataAnalyzer(this);
+```
+- Get the Installed Application list
+```
+   ArrayList<ApplicationInfo> package_name = (ArrayList<ApplicationInfo>) dataAnalyzer.getApplicationMeta();
+```
+- Get Appname by passing a package name 
+```
+   dataAnalyzer.getAppName(package_name)
+```
+- Get Data Received by your app by package name
+ ```
+   dataAnalyzer.getReceivedData(package_name)
+```
+- Get Data Transmitted by app
+ ```
+  dataAnalyzer.getDataTransmitted(package_name) 
+```
+- Get Packets Received
+ ```
+   dataAnalyzer.getPacketsReceived(package_name)
+```
+- Get Packets Transmiited
+ ```
+   dataAnalyzer.getPacketsTransmitted(package_name)
+```
+
+
+
 # Screenshot of sample app
 ![Sc1](https://github.com/NikhilBhutani/EasyDataAnalyzer/blob/master/device-2016-07-14-192534.png) 
 
