@@ -27,28 +27,34 @@ compile 'com.github.NikhilBhutani:EasyDataAnalyzer:1.0'
 DataAnalyzer dataAnalyzer = new DataAnalyzer(this);
 ```
 - Get the Installed Application list
+
 ```
-   ArrayList<ApplicationInfo> package_name = (ArrayList<ApplicationInfo>) dataAnalyzer.getApplicationMeta();
+ArrayList<ApplicationInfo> package_name = (ArrayList<ApplicationInfo>) dataAnalyzer.getApplicationMeta();
 ```
 - Get Appname by passing a package name 
+
 ```
-   dataAnalyzer.getAppName(package_name)
+dataAnalyzer.getAppName(package_name)
 ```
 - Get Data Received by your app by package name
- ```
-   dataAnalyzer.getReceivedData(package_name)
+ 
+```
+dataAnalyzer.getReceivedData(package_name)
 ```
 - Get Data Transmitted by app
+ 
  ```
-  dataAnalyzer.getDataTransmitted(package_name) 
-```
+ dataAnalyzer.getDataTransmitted(package_name) 
+ ```
 - Get Packets Received
+ 
  ```
-   dataAnalyzer.getPacketsReceived(package_name)
-```
+ dataAnalyzer.getPacketsReceived(package_name)
+ ```
 - Get Packets Transmiited
+ 
  ```
-   dataAnalyzer.getPacketsTransmitted(package_name)
+ dataAnalyzer.getPacketsTransmitted(package_name)
 ```
 
 
