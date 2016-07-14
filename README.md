@@ -43,18 +43,18 @@ dataAnalyzer.getReceivedData(package_name)
 ```
 - Get Data Transmitted by app
  
- ```
- dataAnalyzer.getDataTransmitted(package_name) 
- ```
+```
+dataAnalyzer.getDataTransmitted(package_name) 
+```
 - Get Packets Received
  
- ```
- dataAnalyzer.getPacketsReceived(package_name)
- ```
+```
+dataAnalyzer.getPacketsReceived(package_name)
+```
 - Get Packets Transmiited
  
- ```
- dataAnalyzer.getPacketsTransmitted(package_name)
+```
+dataAnalyzer.getPacketsTransmitted(package_name)
 ```
 
 
