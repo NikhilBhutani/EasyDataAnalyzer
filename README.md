@@ -51,7 +51,7 @@ dataAnalyzer.getDataTransmitted(package_name)
 ```
 dataAnalyzer.getPacketsReceived(package_name)
 ```
-- Get Packets Transmiited
+- Get Packets Transmitted
  
 ```
 dataAnalyzer.getPacketsTransmitted(package_name)
