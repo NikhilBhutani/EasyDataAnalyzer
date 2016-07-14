@@ -1,6 +1,6 @@
 # EasyDataAnalyzer
 
-Android library to dive into the network data information.
+As the name suggest, this Android library analyzes the network data information for any app in an android device.
 
 
 ### Screenshot of sample app
