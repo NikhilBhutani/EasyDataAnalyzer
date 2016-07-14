@@ -6,20 +6,15 @@ import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import io.github.nikhilbhutani.analyzer.DataAnalyzer;
-import io.github.nikhilbhutani.analyzer.PackageDetails;
 
 public class MainActivity extends AppCompatActivity {
 
-    ListView listView;
-    ArrayList<String> appnames = new ArrayList<>();
+
     DataAnalyzer dataAnalyzer;
     RecyclerView recyclerView;
     RecyclerViewAdapter recyclerViewAdapter;
@@ -37,25 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         ArrayList<ApplicationInfo> arrayList = (ArrayList<ApplicationInfo>) dataAnalyzer.getApplicationMeta();
-
-/*        ArrayAdapter<ApplicationInfo> arrayAdapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1,arrayList);
-
-        for(ApplicationInfo applicationInfo : arrayList){
-
-            String appname = dataAnalyzer.getAppName(applicationInfo);
-            String dataReceived = dataAnalyzer.getReceivedBytes(applicationInfo);
-            appnames.add(appname +" " +dataReceived);
-
-        }
-
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1,appnames);
-
-        listView.setAdapter(arrayAdapter);
-*/
-
-
-
-
 
         recyclerView = (RecyclerView)findViewById(R.id.recyclerview);
 

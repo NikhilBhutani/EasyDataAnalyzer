@@ -10,10 +10,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import io.github.nikhilbhutani.analyzer.DataAnalyzer;
-import io.github.nikhilbhutani.analyzer.PackageDetails;
 
 /**
  * Created by Nikhil Bhutani on 7/13/2016.
