@@ -4,8 +4,9 @@ As the name suggest, this Android library analyzes the network data information 
 
 # Including in your project
 
-- EasyDataAnalyzer is available in the MavenCentral to add as a dependency
-
+EasyDataAnalyzer is available in the MavenCentral to add as a dependency
+ 
+ -  Add this to your root build.gradle file
 ```
  allprojects {
         repositories {
