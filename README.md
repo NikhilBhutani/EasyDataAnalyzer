@@ -16,7 +16,7 @@ EasyDataAnalyzer is available in the MavenCentral to add as a dependency
     }
 ```
 
-- Add this to you app's build.gradle file
+- Add this to your app's build.gradle file
 ```gradle
 compile 'com.github.NikhilBhutani:EasyDataAnalyzer:1.0'
 ```
