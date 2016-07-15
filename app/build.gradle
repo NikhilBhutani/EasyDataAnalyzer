@@ -26,5 +26,8 @@ dependencies {
     compile 'com.android.support:design:24.0.0'
     compile 'com.android.support:cardview-v7:21.+'
     compile 'com.android.support:recyclerview-v7:21.+'
-    compile project(':library')
+
+    compile 'com.github.NikhilBhutani:EasyDataAnalyzer:1.0'
+
+    //compile project(':library')
 }
