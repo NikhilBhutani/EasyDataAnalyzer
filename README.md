@@ -23,6 +23,7 @@ compile 'com.github.NikhilBhutani:EasyDataAnalyzer:1.0'
 
 ### Usage Docs/Wiki
 
+-Instantiate the class.
 ```
 DataAnalyzer dataAnalyzer = new DataAnalyzer(this);
 ```
@@ -36,22 +37,22 @@ ArrayList<ApplicationInfo> package_name = (ArrayList<ApplicationInfo>) dataAnaly
 ```
 dataAnalyzer.getAppName(package_name)
 ```
-- Get Data Received by your app by package name
+- Get Data Received(bytes) by your app by package name
  
 ```
 dataAnalyzer.getReceivedData(package_name)
 ```
-- Get Data Transmitted by app
+- Get Data Transmitted(bytes) by app
  
 ```
 dataAnalyzer.getDataTransmitted(package_name) 
 ```
-- Get Packets Received
+- Get Packets Received(bytes)
  
 ```
 dataAnalyzer.getPacketsReceived(package_name)
 ```
-- Get Packets Transmitted
+- Get Packets Transmitted(bytes)
  
 ```
 dataAnalyzer.getPacketsTransmitted(package_name)
