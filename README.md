@@ -3,7 +3,7 @@
 As the name suggest, this Android library analyzes the network data information for any app in an android device.
 
 ### Featured in
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-EasyDataAnalyzer-green.svg?style=true)](https://android-arsenal.com/details/1/3944)
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-EasyDataAnalyzer-green.svg?style=true)](https://android-arsenal.com/details/1/3944) [![AndroidDev Digest](https://img.shields.io/badge/AndroidDev%20Digest-%2399-blue.svg)](https://www.androiddevdigest.com/digest-103/)
 
 ### Show some :heart:
 [![GitHub stars](https://img.shields.io/github/stars/NikhilBhutani/EasyDataAnalyzer.svg?style=social&label=Star)](https://github.com/NikhilBhutani/EasyDataAnalyzer) [![GitHub forks](https://img.shields.io/github/forks/NikhilBhutani/EasyDataAnalyzer.svg?style=social&label=Fork)](https://github.com/NikhilBhutani/EasyDataAnalyzer/fork) [![GitHub watchers](https://img.shields.io/github/watchers/NikhilBhutani/EasyDataAnalyzer.svg?style=social&label=Watch)](https://github.com/NikhilBhutani/EasyDataAnalyzer) [![GitHub followers](https://img.shields.io/github/followers/NikhilBhutani.svg?style=social&label=Follow)](https://github.com/NikhilBhutani/EasyDataAnalyzer)  
