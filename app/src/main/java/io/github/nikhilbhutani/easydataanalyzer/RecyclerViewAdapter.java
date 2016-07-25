@@ -16,12 +16,12 @@ import io.github.nikhilbhutani.analyzer.DataAnalyzer;
 /**
  * Created by Nikhil Bhutani on 7/13/2016.
  */
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
+public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
 
     private ArrayList<ApplicationInfo> myDataList;
     private DataAnalyzer dataAnalyzer;
 
-    public RecyclerViewAdapter(Context context, ArrayList<ApplicationInfo> myDataList ){
+    public RecyclerViewAdapter(Context context, ArrayList<ApplicationInfo> myDataList) {
 
         dataAnalyzer = new DataAnalyzer(context);
         this.myDataList = myDataList;
@@ -31,7 +31,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_item,parent,false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recyclerview_item, parent, false);
         return new ViewHolder(view);
     }
 
@@ -40,10 +40,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         holder.icon.setImageDrawable(dataAnalyzer.getAppIcon(myDataList.get(position)));
         holder.appname.setText(dataAnalyzer.getAppName(myDataList.get(position)));
-        holder.dataReceived.setText("Data Received :"+dataAnalyzer.getReceivedData(myDataList.get(position)));
-        holder.dataTransmitted.setText("Data Transmitted :"+dataAnalyzer.getDataTransmitted(myDataList.get(position)));
-        holder.packetsReceived.setText("Packets Received :"+dataAnalyzer.getPacketsReceived(myDataList.get(position)));
-        holder.packetsTransmitted.setText("Packets Transmitted :"+dataAnalyzer.getPacketsTransmitted(myDataList.get(position)));
+        holder.dataReceived.setText("Data Received :" + dataAnalyzer.getReceivedData(myDataList.get(position)));
+        holder.dataTransmitted.setText("Data Transmitted :" + dataAnalyzer.getDataTransmitted(myDataList.get(position)));
+        holder.packetsReceived.setText("Packets Received :" + dataAnalyzer.getPacketsReceived(myDataList.get(position)));
+        holder.packetsTransmitted.setText("Packets Transmitted :" + dataAnalyzer.getPacketsTransmitted(myDataList.get(position)));
 
     }
 
@@ -54,7 +54,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
 
-    public class ViewHolder  extends RecyclerView.ViewHolder{
+    public class ViewHolder extends RecyclerView.ViewHolder {
 
         final ImageView icon;
         final TextView appname;
@@ -67,12 +67,12 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
             super(itemView);
 
-            icon = (ImageView )itemView.findViewById(R.id.app_icon);
-            appname = (TextView)itemView.findViewById(R.id.app_name);
-            dataReceived = (TextView)itemView.findViewById(R.id.data_received);
-            dataTransmitted = (TextView)itemView.findViewById(R.id.data_transmitted);
-            packetsReceived = (TextView)itemView.findViewById(R.id.packets_received);
-            packetsTransmitted = (TextView)itemView.findViewById(R.id.packets_transmitted);
+            icon = (ImageView) itemView.findViewById(R.id.app_icon);
+            appname = (TextView) itemView.findViewById(R.id.app_name);
+            dataReceived = (TextView) itemView.findViewById(R.id.data_received);
+            dataTransmitted = (TextView) itemView.findViewById(R.id.data_transmitted);
+            packetsReceived = (TextView) itemView.findViewById(R.id.packets_received);
+            packetsTransmitted = (TextView) itemView.findViewById(R.id.packets_transmitted);
         }
     }
 

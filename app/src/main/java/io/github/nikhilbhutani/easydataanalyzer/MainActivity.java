@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     DataAnalyzer dataAnalyzer;
     RecyclerView recyclerView;
     RecyclerViewAdapter recyclerViewAdapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,18 +31,15 @@ public class MainActivity extends AppCompatActivity {
         dataAnalyzer = new DataAnalyzer(this);
 
 
-
         ArrayList<ApplicationInfo> arrayList = (ArrayList<ApplicationInfo>) dataAnalyzer.getApplicationMeta();
 
-        recyclerView = (RecyclerView)findViewById(R.id.recyclerview);
+        recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
 
 
         recyclerViewAdapter = new RecyclerViewAdapter(this, arrayList);
         recyclerView.hasFixedSize();
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(recyclerViewAdapter);
-
-
 
 
     }
