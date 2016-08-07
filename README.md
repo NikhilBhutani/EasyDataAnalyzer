@@ -8,6 +8,8 @@ As the name suggest, this Android library analyzes the network data information 
 ### Show some :heart:
 [![GitHub stars](https://img.shields.io/github/stars/NikhilBhutani/EasyDataAnalyzer.svg?style=social&label=Star)](https://github.com/NikhilBhutani/EasyDataAnalyzer) [![GitHub forks](https://img.shields.io/github/forks/NikhilBhutani/EasyDataAnalyzer.svg?style=social&label=Fork)](https://github.com/NikhilBhutani/EasyDataAnalyzer/fork) [![GitHub watchers](https://img.shields.io/github/watchers/NikhilBhutani/EasyDataAnalyzer.svg?style=social&label=Watch)](https://github.com/NikhilBhutani/EasyDataAnalyzer) [![GitHub followers](https://img.shields.io/github/followers/NikhilBhutani.svg?style=social&label=Follow)](https://github.com/NikhilBhutani/EasyDataAnalyzer)  
 
+### Screenshot of sample app
+<img width = "45%" src = "device.png">
 
 # Including in your project
 
@@ -65,10 +67,6 @@ dataAnalyzer.getPacketsReceived(package_name)
 dataAnalyzer.getPacketsTransmitted(package_name)
 ```
 
-
-
-# Screenshot of sample app
-![Sc1](https://github.com/NikhilBhutani/EasyDataAnalyzer/blob/master/device-2016-07-14-192534.png) 
 
 
 # License
