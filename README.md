@@ -1,6 +1,7 @@
 ### EasyDataAnalyzer
 
 As the name suggest, this Android library analyzes the network data information for any app in an android device.
+###NOTE : won't work from nougat and above due to security reasons.
 
 ### Featured in
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-EasyDataAnalyzer-green.svg?style=true)](https://android-arsenal.com/details/1/3944) [![AndroidDev Digest](https://img.shields.io/badge/AndroidDev%20Digest-%23103-red.svg)](https://www.androiddevdigest.com/digest-103/)
